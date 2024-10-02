@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Resultado de la Búsqueda</title>
+</head>
+<body>
+    <h1>Resultado de Búsqueda</h1> <br>
+    <div>
+        <h2>Nombre del pokemon: <span th:text="${pokemon.name}"></span> </h2> <br>
+        <h2>Id del pokemon: <span th:text="${pokemon.id}"></span> </h2> <br>
+        <h2>Peso del pokemon: <span th:text="${pokemon.height}"></span> </h2> <br>
+        <h2>Altura del pokemon: <span th:text="${pokemon.weight}"></span> </h2> <br>
+    </div>
+    <a href="/">Volver</a>
+</body>
+</html>
