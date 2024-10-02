@@ -1,10 +1,10 @@
-package com.pokeapi.springboot.app.spring_poke_api;
+package com.pokeapi.pokeapi_springboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringPokeApiApplicationTests {
+class PokeapiSpringbootApplicationTests {
 
 	@Test
 	void contextLoads() {

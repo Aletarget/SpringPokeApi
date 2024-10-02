@@ -5,13 +5,13 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.4</version>
+		<version>3.2.10</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.pokeapi.springboot.app</groupId>
-	<artifactId>spring-poke-api</artifactId>
+	<groupId>com.pokeapi</groupId>
+	<artifactId>pokeapi-springboot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-poke-api</name>
+	<name>pokeapi-springboot</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
