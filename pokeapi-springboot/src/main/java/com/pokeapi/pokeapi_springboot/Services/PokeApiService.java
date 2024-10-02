@@ -26,10 +26,9 @@ public class PokeApiService {
                 .uri(URI.create("https://pokeapi.co/api/v2/pokemon/" + name.toLowerCase()))
                 .GET()
                 .build();
-
         // Enviar la solicitud y obtener la respuesta
         HttpResponse<String> response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
-        ObjectMapper mapper = new ObjectMapper();
+        ObjectMapper mapper = new ObjectMapper(); //Uso de mapper para extraer los datos necesarios name, id, height y weight
         JsonNode data = mapper.readTree(response.body());
         pokemon = new Pokemon();
         pokemon.setId(data.get("id").asInt());
